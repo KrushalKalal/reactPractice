@@ -1,24 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+// import Hellofn from './components/Hellofn';
+// import Helloclass from './components/Helloclass';
+// import HelloWithoutjsx from './components/Hellowithoutjsx';
+// import Hellowithjsx from './components/Hellowithjxs';
+// import Counter from './components/Counter';
+// import Eventbind from './components/Eventbind';
+// import Counterhooks from './components/Counthook';
+// import Home from './components/Home';
+// import Hellomount from './components/Hellomount';
+import Form from './components/Form';
+import { Listing } from './components/Listing';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Form/>
+        <Listing/>
+       {/* <p>Hello World</p>
+       <Hellofn name="krish"/>
+       <Helloclass name="misk"/>
+       <Hellowithjsx/>
+       <HelloWithoutjsx/>
+       <Counter/>
+       <Eventbind/>
+       <Counterhooks/>
+       <Home/>
+
+       <Hellomount/> */}
     </div>
+      
   );
 }
 
