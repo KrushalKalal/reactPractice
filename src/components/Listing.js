@@ -26,7 +26,7 @@ export function Listing(){
 
     // const names = ['karan','krish','rahul']
    return(
-            persons.map(person => <Person person={person}/>)
+            persons.map(person => <Person key={person.id} person={person}/>)
             // names.map(name=>
             //     <h2>{name}</h2>
             // )

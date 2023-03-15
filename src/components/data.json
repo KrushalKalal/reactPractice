@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "brand":"3M",
+        "discount":"Less than 10%",
+        "form": "Mask"
+        
+    },
+    {
+        "id":2,
+        "brand":"Vogmask",
+        "discount":"10% and above",
+        "form": "Mask"
+    },
+    {
+        "id":3,
+        "brand":"Faballey",
+        "discount":"10% and above",
+        "form": "Mask"
+    },
+    {
+        "id":4,
+        "brand":"FLOH",
+        "discount":"Less than 10%",
+        "form": "Mask"
+    },
+    {
+        "id":5,
+        "brand":"3M",
+        "discount":"20% and above",
+        "form":"Sanitizer"
+       
+    }
+]
